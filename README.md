@@ -16,9 +16,9 @@
 
 ## 👋 About Me
 
-I build **Minecraft server plugins** in **Java** — lightweight, fully configurable and cross-version: a single jar runs on everything from **1.8 to 1.21**.
+I build **Minecraft server plugins** in **Java** — lightweight, fully configurable and cross-version: a single jar runs on everything from **1.8 to 1.21.11**.
 
-- 🧩 **7 open-source plugins** for Spigot / Paper — all MIT licensed, see below
+- 🧩 **15 open-source plugins** for Spigot / Paper — all MIT licensed, see below
 - 🔁 Cross-version compatibility layers with runtime version detection and NMS fallbacks
 - 🎮 Player-first UX — warmups, on-screen countdowns, action bar & title messages, paged GUIs
 - 🔍 Server security & exploit research on Minecraft servers
@@ -29,9 +29,9 @@ I build **Minecraft server plugins** in **Java** — lightweight, fully configur
 <summary><kbd>TR</kbd> <b>Türkçe oku</b></summary>
 <br>
 
-**Java** ile **Minecraft sunucu eklentileri** geliştiriyorum — hafif, tamamen ayarlanabilir ve sürümler arası uyumlu: tek jar **1.8'den 1.21'e** kadar her sürümde çalışır.
+**Java** ile **Minecraft sunucu eklentileri** geliştiriyorum — hafif, tamamen ayarlanabilir ve sürümler arası uyumlu: tek jar **1.8'den 1.21.11'e** kadar her sürümde çalışır.
 
-- 🧩 Spigot / Paper için **7 açık kaynak eklenti** — hepsi MIT lisanslı, aşağıda
+- 🧩 Spigot / Paper için **15 açık kaynak eklenti** — hepsi MIT lisanslı, aşağıda
 - 🔁 Çalışma anında sürümü algılayan uyumluluk katmanları ve NMS yedekleri
 - 🎮 Oyuncu odaklı deneyim — bekleme süreleri, ekranda geri sayım, action bar ve title mesajları, sayfalı menüler
 - 🔍 Minecraft sunucularında güvenlik ve exploit araştırması
@@ -43,20 +43,40 @@ I build **Minecraft server plugins** in **Java** — lightweight, fully configur
 ## 🧩 Minecraft Plugins · Eklentiler
 
 <p align="center">
-  <b>Single jar for 1.8 → 1.21</b> · Java 8 · Spigot / Paper · MIT License
+  <b>Single jar for 1.8 → 1.21.11</b> · Java 8 · Spigot / Paper · MIT License · no dependencies
   <br>
-  <sub>Tüm eklentiler 1.8 → 1.21 arası tek jar ile çalışır ve MIT lisanslıdır</sub>
+  <sub>Tüm eklentiler 1.8 → 1.21.11 arası tek jar ile çalışır, MIT lisanslıdır ve hiçbir bağımlılığı yoktur</sub>
 </p>
+
+### 🛡️ Güvenlik & Koruma · Security
 
 | Plugin | Description · Açıklama | Commands | Download |
 | :-- | :-- | :-- | :-: |
-| **[Msg](https://github.com/coslant/PrivateMessage)** | Private messaging with action-bar notifications and optional sound<br><sub>Action bar bildirimli özel mesajlaşma</sub> | `/msg` `/r` | [<img src="https://img.shields.io/github/v/release/coslant/PrivateMessage?style=flat-square&label=jar&color=FE2C6B" alt="Download Msg" />](https://github.com/coslant/PrivateMessage/releases/latest) |
-| **[SetHome](https://github.com/coslant/Sethome)** | Named homes with limits, warmup and an on-screen countdown<br><sub>Limitli ve geri sayımlı ev sistemi</sub> | `/sethome` `/home` `/homes` | [<img src="https://img.shields.io/github/v/release/coslant/Sethome?style=flat-square&label=jar&color=FE2C6B" alt="Download SetHome" />](https://github.com/coslant/Sethome/releases/latest) |
-| **[Tpa](https://github.com/coslant/TPA)** | Teleport requests with warmup, countdown and cancel-on-move<br><sub>Geri sayımlı ışınlanma istekleri</sub> | `/tpa` `/tpaccept` `/tpdeny` | [<img src="https://img.shields.io/github/v/release/coslant/TPA?style=flat-square&label=jar&color=FE2C6B" alt="Download Tpa" />](https://github.com/coslant/TPA/releases/latest) |
-| **[Announcer](https://github.com/coslant/Announcer)** | Scheduled chat announcements and center-screen broadcasts<br><sub>Otomatik duyurular ve ekran ortası duyuru</sub> | `/announcer` `/duyuru` | [<img src="https://img.shields.io/github/v/release/coslant/Announcer?style=flat-square&label=jar&color=FE2C6B" alt="Download Announcer" />](https://github.com/coslant/Announcer/releases/latest) |
-| **[InvSee](https://github.com/coslant/Invsee)** | View and edit inventories, armor, offhand and ender chests<br><sub>Envanter ve ender sandığı görüntüleme / düzenleme</sub> | `/invsee` | [<img src="https://img.shields.io/github/v/release/coslant/Invsee?style=flat-square&label=jar&color=FE2C6B" alt="Download InvSee" />](https://github.com/coslant/Invsee/releases/latest) |
-| **[JoinMessage](https://github.com/coslant/JoinMessage)** | Big center-screen welcome title with first-join messages<br><sub>Girişte ekran ortasında hoş geldin mesajı</sub> | `/jm reload` | [<img src="https://img.shields.io/github/v/release/coslant/JoinMessage?style=flat-square&label=jar&color=FE2C6B" alt="Download JoinMessage" />](https://github.com/coslant/JoinMessage/releases/latest) |
+| **[PluginHider](https://github.com/coslant/PluginHider)** | Hides which plugins the server runs, from commands and tab completion alike<br><sub>Plugin listesi ve komut sızıntısını gizler</sub> | `/pluginhider` | [<img src="https://img.shields.io/github/v/release/coslant/PluginHider?style=flat-square&label=jar&color=FE2C6B" alt="Download PluginHider" />](https://github.com/coslant/PluginHider/releases/latest) |
+| **[AntiBot](https://github.com/coslant/AntiBot)** | Connection rate limits, per-IP caps and a GUI captcha<br><sub>Bot saldırılarına karşı limit ve GUI doğrulama</sub> | `/antibot` | [<img src="https://img.shields.io/github/v/release/coslant/AntiBot?style=flat-square&label=jar&color=FE2C6B" alt="Download AntiBot" />](https://github.com/coslant/AntiBot/releases/latest) |
+| **[AuthPin](https://github.com/coslant/AuthPin)** | GUI login with a 6-digit PIN, stored using PBKDF2<br><sub>6 haneli PIN ile GUI giriş sistemi</sub> | `/authpin` | [<img src="https://img.shields.io/github/v/release/coslant/AuthPin?style=flat-square&label=jar&color=FE2C6B" alt="Download AuthPin" />](https://github.com/coslant/AuthPin/releases/latest) |
+| **[Trade](https://github.com/coslant/Trade)** | Safe player trading with dupe and last-second-swap protection<br><sub>Dupe ve scam korumalı takas</sub> | `/trade` | [<img src="https://img.shields.io/github/v/release/coslant/Trade?style=flat-square&label=jar&color=FE2C6B" alt="Download Trade" />](https://github.com/coslant/Trade/releases/latest) |
+| **[Grave](https://github.com/coslant/Grave)** | Items kept in a grave with hologram and countdown, survives restarts<br><sub>Hologramlı mezar, yeniden başlatmaya dayanıklı</sub> | `/grave` | [<img src="https://img.shields.io/github/v/release/coslant/Grave?style=flat-square&label=jar&color=FE2C6B" alt="Download Grave" />](https://github.com/coslant/Grave/releases/latest) |
+| **[InvSee](https://github.com/coslant/Invsee)** | View and edit inventories, armor, offhand and ender chests<br><sub>Envanter ve ender sandığı görüntüleme</sub> | `/invsee` | [<img src="https://img.shields.io/github/v/release/coslant/Invsee?style=flat-square&label=jar&color=FE2C6B" alt="Download InvSee" />](https://github.com/coslant/Invsee/releases/latest) |
+
+### 🎮 Oyuncu Özellikleri · Gameplay
+
+| Plugin | Description · Açıklama | Commands | Download |
+| :-- | :-- | :-- | :-: |
+| **[SetHome](https://github.com/coslant/Sethome)** | Named homes with limits, warmup and an on-screen countdown<br><sub>Limitli ve geri sayımlı ev sistemi</sub> | `/sethome` `/home` | [<img src="https://img.shields.io/github/v/release/coslant/Sethome?style=flat-square&label=jar&color=FE2C6B" alt="Download SetHome" />](https://github.com/coslant/Sethome/releases/latest) |
+| **[Tpa](https://github.com/coslant/TPA)** | Teleport requests with warmup, countdown and cancel-on-move<br><sub>Geri sayımlı ışınlanma istekleri</sub> | `/tpa` `/tpaccept` | [<img src="https://img.shields.io/github/v/release/coslant/TPA?style=flat-square&label=jar&color=FE2C6B" alt="Download Tpa" />](https://github.com/coslant/TPA/releases/latest) |
+| **[RandomSpawn](https://github.com/coslant/RandomSpawn)** | Safe random spawns on join and respawn, plus `/rtp`<br><sub>Rastgele güvenli doğum ve ışınlanma</sub> | `/rtp` | [<img src="https://img.shields.io/github/v/release/coslant/RandomSpawn?style=flat-square&label=jar&color=FE2C6B" alt="Download RandomSpawn" />](https://github.com/coslant/RandomSpawn/releases/latest) |
 | **[PersonalChests](https://github.com/coslant/PersonalChest)** | Paged personal chests with an admin view<br><sub>Sayfalı kişisel sandıklar</sub> | `/chest` | [<img src="https://img.shields.io/github/v/release/coslant/PersonalChest?style=flat-square&label=jar&color=FE2C6B" alt="Download PersonalChests" />](https://github.com/coslant/PersonalChest/releases/latest) |
+| **[Msg](https://github.com/coslant/PrivateMessage)** | Private messaging with action-bar notifications<br><sub>Action bar bildirimli özel mesajlaşma</sub> | `/msg` `/r` | [<img src="https://img.shields.io/github/v/release/coslant/PrivateMessage?style=flat-square&label=jar&color=FE2C6B" alt="Download Msg" />](https://github.com/coslant/PrivateMessage/releases/latest) |
+
+### ✨ Görsel & Eğlence · Visual
+
+| Plugin | Description · Açıklama | Commands | Download |
+| :-- | :-- | :-- | :-: |
+| **[DamageIndicators](https://github.com/coslant/DamageIndicators)** | Floating damage numbers, below-name health and mob health bars<br><sub>Hasar göstergesi ve can barı</sub> | `/dmgindicators` | [<img src="https://img.shields.io/github/v/release/coslant/DamageIndicators?style=flat-square&label=jar&color=FE2C6B" alt="Download DamageIndicators" />](https://github.com/coslant/DamageIndicators/releases/latest) |
+| **[HeadHunter](https://github.com/coslant/HeadHunter)** | Drops the victim's head with the killer's name and real skin<br><sub>Gerçek skinli kurban kafası düşer</sub> | `/headhunter` | [<img src="https://img.shields.io/github/v/release/coslant/HeadHunter?style=flat-square&label=jar&color=FE2C6B" alt="Download HeadHunter" />](https://github.com/coslant/HeadHunter/releases/latest) |
+| **[JoinMessage](https://github.com/coslant/JoinMessage)** | Big center-screen welcome title with first-join messages<br><sub>Girişte ekran ortasında hoş geldin mesajı</sub> | `/jm reload` | [<img src="https://img.shields.io/github/v/release/coslant/JoinMessage?style=flat-square&label=jar&color=FE2C6B" alt="Download JoinMessage" />](https://github.com/coslant/JoinMessage/releases/latest) |
+| **[Announcer](https://github.com/coslant/Announcer)** | Scheduled chat announcements and center-screen broadcasts<br><sub>Otomatik duyurular ve ekran ortası duyuru</sub> | `/announcer` | [<img src="https://img.shields.io/github/v/release/coslant/Announcer?style=flat-square&label=jar&color=FE2C6B" alt="Download Announcer" />](https://github.com/coslant/Announcer/releases/latest) |
 
 ## 🔥 Forges Studio
 
