@@ -94,7 +94,7 @@ I build **Minecraft server plugins** in **Java** — lightweight, fully configur
 </table>
 
 <p align="center">
-  <a href="https://discord.gg/forges"><img src="https://invidget.switchblade.xyz/forges" alt="Join Forges Studio on Discord" /></a>
+  <a href="https://discord.gg/forges"><img src="assets/forges-card.png" alt="Join Forges Studio on Discord" width="620" /></a>
 </p>
 
 ## 🛠️ Tech Stack · Teknolojiler
